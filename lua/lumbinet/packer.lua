@@ -10,6 +10,10 @@ return require('packer').startup(function(use)
     use "lukas-reineke/indent-blankline.nvim"
     use { 'github/copilot.vim', branch = 'release' }
     use {
+        'nvim-lualine/lualine.nvim',
+        requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+    }
+    use {
         "folke/which-key.nvim",
         config = function()
             vim.o.timeout = true
