@@ -7,7 +7,8 @@ return require('packer').startup(function(use)
         'nvim-telescope/telescope.nvim', tag = '0.1.5',
         requires = { { 'nvim-lua/plenary.nvim' } }
     }
-    use { "ellisonleao/glow.nvim", config = function() require("glow").setup() end }
+    use "lukas-reineke/indent-blankline.nvim"
+    use { 'github/copilot.vim', branch = 'release' }
     use {
         "folke/which-key.nvim",
         config = function()
