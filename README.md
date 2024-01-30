@@ -70,5 +70,5 @@ El plugin Mason está instalado, se puede llamar con el comando:
 
 
 ## Scripts
-[scripts/tmux-sessionizer - ThePrimeagen](https://github.com/ThePrimeagen/.dotfiles/blob/master/bin/.local/scripts/tmux-sessionizer)
+[scripts/tmux-sessionizer - ThePrimeagen](https://github.com/ThePrimeagen/.dotfiles/blob/master/bin/.local/scripts/tmux-sessionizer)   
 [From 0 to LSP - ThePrimeagen](https://www.youtube.com/watch?v=w7i4amO_zaE)
